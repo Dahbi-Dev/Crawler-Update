@@ -22,8 +22,8 @@ def getUpdateData(event):
 
 
 def prog():
-    user = "a.rodriguez@brioss.ma"
-    password = "Dbtrkp21Esp"
+    user = "sensitive data"
+    password = "sensitive data"
     category = str(CategoryCombo.get())
     sub = str(AccountCombo.get())
     Marge = number4.get()
@@ -146,7 +146,3 @@ Button(root, text="Quit", width=10, bg='yellow', fg='black', command=root.destro
 root.mainloop()
 
 
-"""
-mail: a.rodriguez@brioss.ma
-mdp: Dbtrkp21Esp
-"""
